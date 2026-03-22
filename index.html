@@ -3,9 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Welcome</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at top, #2a2f4a 0%, #141824 45%, #090b11 100%);
+        color: #f5f7ff;
+      }
+
+      main {
+        text-align: center;
+        padding: 2.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 20px;
+        background: rgba(13, 16, 27, 0.78);
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+        max-width: 40rem;
+        margin: 1.5rem;
+      }
+
+      h1 {
+        margin: 0 0 1rem;
+        font-size: clamp(2rem, 5vw, 3.75rem);
+      }
+
+      p {
+        margin: 0;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #c8d0f5;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello world! (och manne)</h1>
+    <main>
+      <h1>Valkommen till den mysiga nattskiftsversionen av sidan.</h1>
+      <p>
+        Allt ar centrerat, lamporna ar slackta och servern ar officiellt for
+        cool for lysror.
+      </p>
+    </main>
   </body>
 </html>
